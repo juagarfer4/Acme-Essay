@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- * tiles.xml * * Copyright (C) 2013 Universidad de Sevilla * * The use 
+	of this project is hereby constrained to the conditions of the * TDG Licence, 
+	a copy of which you may download from * http://www.tdg-seville.info/License.html -->
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="publicsession/organiser/list" extends="master.page">
+		<put-attribute name="title" value="List of public sessions" />
+		<put-attribute name="body" value="/views/publicsession/list.jsp" />
+	</definition>
+
+	<definition name="publicsession/organiser/edit" extends="master.page">
+		<put-attribute name="title" value="Edit a public session" />
+		<put-attribute name="body" value="/views/publicsession/edit.jsp" />
+	</definition>
+	
+	<definition name="publicsession/organiser/add" extends="master.page">
+		<put-attribute name="title" value="Add an essay to a public session" />
+		<put-attribute name="body" value="/views/publicsession/add.jsp" />
+	</definition>
+
+</tiles-definitions>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- * tiles.xml * * Copyright (C) 2013 Universidad de Sevilla * * The use 
+	of this project is hereby constrained to the conditions of the * TDG Licence, 
+	a copy of which you may download from * http://www.tdg-seville.info/License.html
+	 -->
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="essay/author/edit" extends="master.page">
+		<put-attribute name="title" value="Register an essay" />
+		<put-attribute name="body" value="/views/essay/edit.jsp" />
+	</definition>
+
+	<definition name="essay/list" extends="master.page">
+		<put-attribute name="title" value="See essays" />
+		<put-attribute name="body" value="/views/essay/list.jsp" />
+	</definition>
+	
+	<definition name="essay/author/list" extends="master.page">
+		<put-attribute name="title" value="See my essay" />
+		<put-attribute name="body" value="/views/essay/list.jsp" />
+	</definition>
+	
+	<definition name="essay/organiser/edit" extends="master.page">
+		<put-attribute name="title" value="Publish an essay" />
+		<put-attribute name="body" value="/views/essay/edit.jsp" />
+	</definition>
+
+</tiles-definitions>
